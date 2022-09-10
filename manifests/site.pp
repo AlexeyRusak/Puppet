@@ -84,7 +84,7 @@ file { '/opt/minecraft/server.jar':
     group => 'root',
     ensure => file,
     mode   => '0644',
-    source => 'https://github.com/AlexeyRusak/devops-hometasks/tree/master/puppet/production/modules/minecraft/files/minecraft.sevice',
+    source => 'https://raw.githubusercontent.com/AlexeyRusak/Puppet/main/modules/minecraft/files/minecraft.sevice',
     replace => false,
     }
 
